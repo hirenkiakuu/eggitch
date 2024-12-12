@@ -52,7 +52,7 @@ const TranslationWindow = () => {
 
     const getImageByLikes = () => {
         // Изменили требования для скинов
-        if (likes < 25) return '/egg1.jpg';
+        if (likes < 25) return '/eggitch/egg1.jpg';
         if (likes < 50) return '/egg2.jpg';
         if (likes < 75) return '/egg3.jpg';
         if (likes < 100) return '/egg4.jpg';
